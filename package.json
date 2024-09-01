@@ -1,0 +1,16 @@
+{
+  "name": "electron-image-resize",
+  "productName": "Electron Image Resizer",
+  "version": "1.0.0",
+  "description": "Image resizer tool in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Risto Uibo",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^32.0.1",
+    "image-resize": "^1.4.1"
+  }
+}
