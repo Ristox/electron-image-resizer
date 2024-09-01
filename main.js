@@ -1,7 +1,7 @@
 const path = require('path')
 const { app, BrowserWindow } = require('electron')
 
-const isDev = process.env.NODE_ENV !== 'development'
+const isDev = process.env.NODE_ENV !== 'production'
 const isMac = process.platform === 'darwin'
 
 function createMainWindow() {
